@@ -1,4 +1,5 @@
 package br.com.luciano.moneyapi.model;
+
 /**
  * 
  * @author Luciano Lima

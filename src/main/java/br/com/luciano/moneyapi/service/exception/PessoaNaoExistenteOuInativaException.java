@@ -1,4 +1,5 @@
 package br.com.luciano.moneyapi.service.exception;
+
 /**
  * 
  * @author Luciano Lima

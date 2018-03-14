@@ -15,6 +15,7 @@ import org.hibernate.annotations.DynamicUpdate;
 import org.hibernate.validator.constraints.NotBlank;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+
 /**
  * 
  * @author Luciano Lima

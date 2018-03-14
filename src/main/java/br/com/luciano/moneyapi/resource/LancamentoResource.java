@@ -33,6 +33,7 @@ import br.com.luciano.moneyapi.repository.filter.LancamentoFilter;
 import br.com.luciano.moneyapi.repository.projection.ResumoLancamento;
 import br.com.luciano.moneyapi.service.LancamentoService;
 import br.com.luciano.moneyapi.service.exception.PessoaNaoExistenteOuInativaException;
+
 /**
  * 
  * @author Luciano Lima

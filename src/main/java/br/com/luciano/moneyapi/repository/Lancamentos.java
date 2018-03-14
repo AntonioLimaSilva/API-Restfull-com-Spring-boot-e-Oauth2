@@ -5,6 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import br.com.luciano.moneyapi.model.Lancamento;
 import br.com.luciano.moneyapi.repository.lancamento.LancamentosQueries;
+
 /**
  * 
  * @author Luciano Lima
