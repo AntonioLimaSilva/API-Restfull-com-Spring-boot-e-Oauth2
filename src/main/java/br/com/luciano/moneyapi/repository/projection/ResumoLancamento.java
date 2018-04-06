@@ -5,11 +5,6 @@ import java.time.LocalDate;
 
 import br.com.luciano.moneyapi.model.TipoLancamento;
 
-/**
- * 
- * @author Luciano Lima
- *
- */
 public class ResumoLancamento {
 
 	private Integer id;

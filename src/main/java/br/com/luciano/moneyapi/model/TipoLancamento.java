@@ -1,10 +1,5 @@
 package br.com.luciano.moneyapi.model;
 
-/**
- * 
- * @author Luciano Lima
- *
- */
 public enum TipoLancamento {
 
 	RECEITA("Receita"), 

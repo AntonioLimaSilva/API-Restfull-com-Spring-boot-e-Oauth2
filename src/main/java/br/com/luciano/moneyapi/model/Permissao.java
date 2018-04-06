@@ -9,11 +9,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/**
- * 
- * @author Luciano Lima
- *
- */
 @Entity
 @Table(name = "permissao")
 public class Permissao implements Serializable {

@@ -3,10 +3,7 @@ package br.com.luciano.moneyapi.repository.filter;
 import java.time.LocalDate;
 
 import org.springframework.format.annotation.DateTimeFormat;
-
 /**
- *  Luciano Lima
- * 
  * A anotação @DateTimeFormat é util para receber os valores do cliente via 
  * query string e transformar em um tipo LocalDate
  */

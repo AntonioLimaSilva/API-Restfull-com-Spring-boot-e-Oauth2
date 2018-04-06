@@ -7,9 +7,9 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import br.com.luciano.moneyapi.config.property.MoneyApiProperty;
 /**
  * 
- * @author Luciano Lima
+ * @author luciano
  * 
- * A partir daqui as demais classes são escaneadas pelo Spring
+ * Apartir daqui as demais classes são escaneadas pelo spring
  *
  */
 @SpringBootApplication

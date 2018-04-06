@@ -7,11 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import br.com.luciano.moneyapi.model.Usuario;
 
-/**
- * 
- * @author Luciano Lima
- *
- */
 @Repository
 public interface Usuarios extends JpaRepository<Usuario, Integer> {
 	

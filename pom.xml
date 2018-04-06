@@ -6,7 +6,6 @@
 	<groupId>br.com.luciano.moneyapi</groupId>
 	<artifactId>moneyapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 
 	<name>moneyapi</name>
 	<description>Api restfull with spring boot</description>

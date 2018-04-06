@@ -5,11 +5,6 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 import br.com.luciano.moneyapi.MoneyapiApplication;
 
-/**
- * 
- * @author Luciano Lima
- *
- */
 public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override

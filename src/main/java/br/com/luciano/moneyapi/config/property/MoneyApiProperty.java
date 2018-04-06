@@ -2,32 +2,36 @@ package br.com.luciano.moneyapi.config.property;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-/**
- * 
- * @author Luciano Lima
- *
- */
 @ConfigurationProperties("money")
 public class MoneyApiProperty {
 	
-	private final Seguranca seguranca = new Seguranca();	
+	private String originPermitida = "http://localhost:4200";	
 	
-	public static class Seguranca {
+	private final Seguranca seguranca = new Seguranca();	
 		
-		private boolean enableHttps;
+	public String getOriginPermitida() {
+		return originPermitida;
+	}
 
-		public boolean isEnableHttps() {
-			return enableHttps;
-		}
-
-		public void setEnableHttps(boolean enableHttps) {
-			this.enableHttps = enableHttps;
-		}
-		
+	public void setOriginPermitida(String originPermitida) {
+		this.originPermitida = originPermitida;
 	}
 
 	public Seguranca getSeguranca() {
 		return seguranca;
 	}
 
+	public static class Seguranca {
+		
+		private boolean enableHttps;
+		
+		public boolean isEnableHttps() {
+			return enableHttps;
+		}
+		
+		public void setEnableHttps(boolean enableHttps) {
+			this.enableHttps = enableHttps;
+		}
+		
+	}
 }

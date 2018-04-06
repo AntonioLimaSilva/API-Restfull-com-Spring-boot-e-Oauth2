@@ -5,11 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import br.com.luciano.moneyapi.model.Categoria;
 
-/**
- * 
- * @author Luciano Lima
- *
- */
 @Repository
 public interface Categorias extends JpaRepository<Categoria, Integer> {
 

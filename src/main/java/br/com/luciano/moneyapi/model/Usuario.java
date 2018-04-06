@@ -15,11 +15,6 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
-/**
- * 
- * @author Luciano Lima
- *
- */
 @Entity
 @Table(name = "usuario")
 public class Usuario implements Serializable {

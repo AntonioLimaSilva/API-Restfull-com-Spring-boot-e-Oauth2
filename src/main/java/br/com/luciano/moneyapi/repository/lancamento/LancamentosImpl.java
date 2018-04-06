@@ -19,11 +19,6 @@ import br.com.luciano.moneyapi.model.Lancamento;
 import br.com.luciano.moneyapi.repository.filter.LancamentoFilter;
 import br.com.luciano.moneyapi.repository.projection.ResumoLancamento;
 
-/**
- * 
- * @author Luciano Lima
- *
- */
 public class LancamentosImpl implements LancamentosQueries {
 	
 	@PersistenceContext

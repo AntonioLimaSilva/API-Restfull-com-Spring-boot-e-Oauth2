@@ -12,11 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.luciano.moneyapi.config.property.MoneyApiProperty;
 
-/**
- * 
- * @author Luciano Lima
- *
- */
 @RestController
 @RequestMapping("/tokens")
 public class TokenResource {

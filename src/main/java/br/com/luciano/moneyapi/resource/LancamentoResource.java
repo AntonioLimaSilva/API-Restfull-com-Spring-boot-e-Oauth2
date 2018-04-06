@@ -34,11 +34,6 @@ import br.com.luciano.moneyapi.repository.projection.ResumoLancamento;
 import br.com.luciano.moneyapi.service.LancamentoService;
 import br.com.luciano.moneyapi.service.exception.PessoaNaoExistenteOuInativaException;
 
-/**
- * 
- * @author Luciano Lima
- *
- */
 @RestController
 @RequestMapping("/lancamentos")
 public class LancamentoResource {
