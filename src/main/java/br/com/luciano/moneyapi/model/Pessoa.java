@@ -16,6 +16,10 @@ import org.hibernate.validator.constraints.NotBlank;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+/**
+ * @autor Luciano Lima
+ */
+
 @Entity
 @Table(name = "pessoa")
 @DynamicUpdate
