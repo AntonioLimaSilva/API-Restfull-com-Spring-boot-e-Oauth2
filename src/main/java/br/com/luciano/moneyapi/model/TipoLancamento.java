@@ -3,7 +3,7 @@ package br.com.luciano.moneyapi.model;
 public enum TipoLancamento {
 
 	RECEITA("Receita"), 
-	DESPEZA("Despeza");
+	DESPESA("Despesa");
 
 	private String descricao;
 
